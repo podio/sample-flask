@@ -8,10 +8,10 @@ Install
 -------
 Requirements are:
 
-*PyPodio
-*Dolt
-*Flask and Dependencies
-*httplib2
+* PyPodio
+* Dolt
+* Flask and Dependencies
+* httplib2
 
 To install you'll first need to install the Active Listings app linked
 above to a Podio Space. Once this is done, add a couple of items, and
@@ -24,16 +24,16 @@ Then:
     $ pip install -r reqs.txt
 
 Next, edit the `settings.example.py` and add the required information.
-Rename it to settings.py when finished. Finally:
+Rename it to `settings.py` when finished. Finally:
 
     $ python realview.py
 
 If you have any questions, feel free to ask in the Podio API space
-or file a bug on the PyPodio page.
+, file a bug on the PyPodio page, or find me on Skype at nick.barnwell.
 
 Meta
 ----
 
-* Code: `git clone git://github.com/podio/podio-py.git`
+* PyPodio: `git clone git://github.com/podio/podio-py.git`
 * Home: <https://github.com/podio/podio-py>
 * Bugs: <https://github.com/podio/podio-py/issues>
