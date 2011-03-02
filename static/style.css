@@ -1,0 +1,89 @@
+
+body {
+  background: #000;
+  color: #222222;
+  font: 14px/1.5 Calibri, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  padding: 20px;
+}
+
+#container {
+  width: 814px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  color: #eee;
+  font: 72px/1 'Sniglet', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+  color: #d88c00;
+  text-decoration: none;
+}
+
+#fade_left, #fade_right {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 100;
+}
+
+#fade_left {
+  left: 0;
+  background: url('fadeb_left.png');
+}
+
+#fade_right {
+  right: 0;
+  background: url('fadeb_right.png');
+}
+
+.info {
+  width: 592px;
+  padding: 10px;
+  background: #fff;
+  -webkit-box-shadow: #ccc 0px 1px 5px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.details {
+  width: 534px;
+  float: left;
+}
+
+.result {
+  width: 612px;
+  padding: 0 100px;
+}
+
+.text {
+  font: 30px 'Just Another Hand', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+img.photo {
+  width: 612px;
+  height: 612px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: #ccc 0px 1px 5px;
+  border: 1px solid #ccc;
+}
+
+li.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#footer {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}

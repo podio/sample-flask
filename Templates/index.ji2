@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>RealView by RE/MAX Traditions -- Powered by Podio</title>
+		<link href="http://yui.yahooapis.com/3.2.0/build/cssreset/reset-min.css" rel="stylesheet"/>
+		<link href="static/style.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="container">
+			<h1>RealView</h1>
+			<div id="content">
+				<ul id="results">
+					{% for house in homes %}
+						<li class="result">
+							<a href="mailto:{{ house.agent.email }}">
+								<img class="photo" src="static/{{ house.photo }}"</img>
+							</a>
+						<div class="info">
+							<ul class="details">
+								<li class="user">{{ house.address }}</li>
+								<li class="text">Price: ${{house.price}}<br> Agent: {{ house.agent.name }}</li>
+							</ul>
+						</div>
+						</li>
+					{% endfor %}	
+				</ul>
+			</div>
+			<div id="footer">
+				<p>
+				<a href="http://podio.com">Powered by Podio</a><br>
+				Built by <a href="http://github.com/nickbarnwell">Nick Barnwell</a>
+				</p>
+			</div>
+			<div id="fade_left">
+			</div>
+			<div id="fade_right">
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script type="text/javascript" src="static/script.js"></script>
+</html>
