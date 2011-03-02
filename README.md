@@ -19,8 +19,8 @@ record the application's ID.
 
 Then:
 
-    $ git clone git://github.com/podio/podio-py.git
-    $ cd podio-python-sample
+    $ git clone git://github.com/podio/sample-flask.git
+    $ cd sample-flask
     $ pip install -r reqs.txt
 
 Next, edit the `settings.example.py` and add the required information.
